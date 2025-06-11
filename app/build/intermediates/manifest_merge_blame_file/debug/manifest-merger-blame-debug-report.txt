@@ -1,0 +1,57 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.yolov5tfliteandroid"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\ASUS\Desktop\and_studio\prj\yolov5-tflite-android2\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\ASUS\Desktop\and_studio\prj\yolov5-tflite-android2\app\src\main\AndroidManifest.xml
+10
+11    <uses-feature android:name="android.hardware.camera.any" />
+11-->C:\Users\ASUS\Desktop\and_studio\prj\yolov5-tflite-android2\app\src\main\AndroidManifest.xml:5:5-64
+11-->C:\Users\ASUS\Desktop\and_studio\prj\yolov5-tflite-android2\app\src\main\AndroidManifest.xml:5:19-61
+12
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->C:\Users\ASUS\Desktop\and_studio\prj\yolov5-tflite-android2\app\src\main\AndroidManifest.xml:6:5-65
+13-->C:\Users\ASUS\Desktop\and_studio\prj\yolov5-tflite-android2\app\src\main\AndroidManifest.xml:6:22-62
+14
+15    <application
+15-->C:\Users\ASUS\Desktop\and_studio\prj\yolov5-tflite-android2\app\src\main\AndroidManifest.xml:8:5-24:19
+16        android:allowBackup="true"
+16-->C:\Users\ASUS\Desktop\and_studio\prj\yolov5-tflite-android2\app\src\main\AndroidManifest.xml:9:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.5.0] C:\Users\ASUS\.gradle\caches\transforms-3\31c0c78c766fdaadac7e506fed71ff7c\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@drawable/yolov5_tflite_android2"
+19-->C:\Users\ASUS\Desktop\and_studio\prj\yolov5-tflite-android2\app\src\main\AndroidManifest.xml:10:9-56
+20        android:label="@string/app_name"
+20-->C:\Users\ASUS\Desktop\and_studio\prj\yolov5-tflite-android2\app\src\main\AndroidManifest.xml:11:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->C:\Users\ASUS\Desktop\and_studio\prj\yolov5-tflite-android2\app\src\main\AndroidManifest.xml:12:9-54
+22        android:supportsRtl="true"
+22-->C:\Users\ASUS\Desktop\and_studio\prj\yolov5-tflite-android2\app\src\main\AndroidManifest.xml:13:9-35
+23        android:theme="@style/Theme.AppCompat.NoActionBar" >
+23-->C:\Users\ASUS\Desktop\and_studio\prj\yolov5-tflite-android2\app\src\main\AndroidManifest.xml:14:9-59
+24        <activity
+24-->C:\Users\ASUS\Desktop\and_studio\prj\yolov5-tflite-android2\app\src\main\AndroidManifest.xml:15:9-23:20
+25            android:name="com.example.yolov5tfliteandroid.MainActivity"
+25-->C:\Users\ASUS\Desktop\and_studio\prj\yolov5-tflite-android2\app\src\main\AndroidManifest.xml:16:13-41
+26            android:exported="true" >
+26-->C:\Users\ASUS\Desktop\and_studio\prj\yolov5-tflite-android2\app\src\main\AndroidManifest.xml:17:13-36
+27            <intent-filter>
+27-->C:\Users\ASUS\Desktop\and_studio\prj\yolov5-tflite-android2\app\src\main\AndroidManifest.xml:18:13-22:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->C:\Users\ASUS\Desktop\and_studio\prj\yolov5-tflite-android2\app\src\main\AndroidManifest.xml:19:17-69
+28-->C:\Users\ASUS\Desktop\and_studio\prj\yolov5-tflite-android2\app\src\main\AndroidManifest.xml:19:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->C:\Users\ASUS\Desktop\and_studio\prj\yolov5-tflite-android2\app\src\main\AndroidManifest.xml:21:17-77
+30-->C:\Users\ASUS\Desktop\and_studio\prj\yolov5-tflite-android2\app\src\main\AndroidManifest.xml:21:27-74
+31            </intent-filter>
+32        </activity>
+33    </application>
+34
+35</manifest>
